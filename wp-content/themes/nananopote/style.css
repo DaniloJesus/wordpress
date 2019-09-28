@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*
+Theme Name: Nana No Pote
+Theme URI: http://nananopote.com.br
+Author: Danilo Jesus
+Description: Tema para WordPress a ser usado no site Nana No Pote
+Requires at least: WordPress 4.9.6
+Version: 1.0
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+body{    
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* header.php */
+.header{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    height: 625px;
+    background: url("assets/images/bg.png") center top;    
+}
+
+.header h1{
+    margin: 0;
+}
+
+.header .site{
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+h1.nomeSite{
+    font-size: 90px;
+    padding-top: 80px;
+    text-decoration: underline;
+}
+
+.header h1 a{
+    color: #5B1A32;
+    text-decoration: none;
+}
+
+.wrap{
+    margin: 0 auto;
+    width: 960px;    
+}
